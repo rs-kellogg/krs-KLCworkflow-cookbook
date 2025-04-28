@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: welcome
+parts:
+- caption: VS Code on KLC
+  chapters:
+  - file: vscode
+- caption: GitHub
+  numbered: false
+  chapters:
+  - file: github
+- caption: Copilot
+  numbered: false
+  chapters:
+  - file: copilot
+- caption: Summary
+  numbered: false
+  chapters:
+  - file: takeaways
+
+  
+
