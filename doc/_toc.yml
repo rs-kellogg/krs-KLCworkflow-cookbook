@@ -4,7 +4,7 @@
 format: jb-book
 root: welcome
 parts:
-- caption: VS Code on KLC
+- caption: KLC with VS Code
   chapters:
   - file: vscode
   - file: sshpasswordless
