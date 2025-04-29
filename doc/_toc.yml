@@ -9,6 +9,7 @@ parts:
   - file: vscode
   - file: sshpasswordless
   - file: tmux
+  - file: vscode_shortcut
 - caption: GitHub
   numbered: false
   chapters:
