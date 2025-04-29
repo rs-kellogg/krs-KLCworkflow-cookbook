@@ -7,6 +7,7 @@ parts:
 - caption: VS Code on KLC
   chapters:
   - file: vscode
+  - file: sshpasswordless
 - caption: GitHub
   numbered: false
   chapters:
