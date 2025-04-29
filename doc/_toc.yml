@@ -8,6 +8,7 @@ parts:
   chapters:
   - file: vscode
   - file: sshpasswordless
+  - file: tmux
 - caption: GitHub
   numbered: false
   chapters:
