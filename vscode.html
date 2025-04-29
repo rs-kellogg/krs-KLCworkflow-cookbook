@@ -65,6 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'vscode';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SSH Passwordless Login 🔐" href="sshpasswordless.html" />
     <link rel="prev" title="Welcome" href="welcome.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -169,6 +170,8 @@ const thebe_selector_output = ".output, .cell_output"
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">VS Code on KLC</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">VS Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sshpasswordless.html">SSH Passwordless Login 🔐</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tmux.html">tmux Essentials Cheatsheet 🧾</a></li>
 </ul>
 
     </div>
@@ -362,7 +365,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-basic-workflow-font"><font color="purple">Basic workflow </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-outline-font"><font color="purple">Outline </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-essential-extensions-font"><font color="purple">Essential Extensions </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-set-up-klc-connection-font"><font color="purple">Set up KLC connection </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-vs-code-terminal-font"><font color="purple">VS Code Terminal</font></a></li>
 </ul>
             </nav>
         </div>
@@ -374,13 +380,61 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="vs-code">
+  <section id="vs-code">
 <h1>VS Code<a class="headerlink" href="#vs-code" title="Permalink to this heading">#</a></h1>
-<section id="font-color-purple-basic-workflow-font">
-<h2><font color='purple'>Basic workflow </font><a class="headerlink" href="#font-color-purple-basic-workflow-font" title="Permalink to this heading">#</a></h2>
+<section id="font-color-purple-outline-font">
+<h2><font color='purple'>Outline </font><a class="headerlink" href="#font-color-purple-outline-font" title="Permalink to this heading">#</a></h2>
+<p>In this session, you’ll explore various features of <strong>Visual Studio Code (VS Code)</strong> through guided, practical tasks.</p>
+<p>Topics we’ll cover:</p>
 <ol class="arabic simple">
-<li><p>Test</p></li>
+<li><p>Installing essential extensions</p></li>
+<li><p>Setting up a remote connection to <strong>KLC</strong></p></li>
+<li><p>Using the <strong>VS Code Terminal</strong></p></li>
+<li><p>Exploring the <strong>VS Code File Explorer</strong></p></li>
+<li><p>Working with <strong>VS Code Source Control</strong></p></li>
 </ol>
+</section>
+<section id="font-color-purple-essential-extensions-font">
+<h2><font color='purple'>Essential Extensions </font><a class="headerlink" href="#font-color-purple-essential-extensions-font" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Remote - SSH<br />
+Allows you to securely connect to a remote cluster (like KLC) and work with files and terminals as if they were local.</p></li>
+<li><p>Remote Explorer<br />
+Gives a graphical view of your SSH targets and remote sessions, making connection management easier.</p></li>
+<li><p>Python<br />
+Adds powerful features for Python development, including code intelligence, linting, and debugging tools.</p></li>
+<li><p>GitHub Copilot<br />
+AI pair programmer that suggests code completions and functions based on your context.</p></li>
+<li><p>GitHub Copilot Chat<br />
+Lets you interact with Copilot via natural language — ask questions, get code explanations, or generate snippets.</p></li>
+<li><p>Jupyter<br />
+Enables opening and running Jupyter Notebooks inside VS Code — useful for data exploration and machine learning workflows.</p></li>
+</ul>
+</section>
+<section id="font-color-purple-set-up-klc-connection-font">
+<h2><font color='purple'>Set up KLC connection </font><a class="headerlink" href="#font-color-purple-set-up-klc-connection-font" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Set up SSH Passwordless Login following instructions <a class="reference internal" href="sshpasswordless.html"><span class="doc std std-doc">here</span></a></p></li>
+<li><p>Remote - SSH</p>
+<ul>
+<li><p>Go to <strong>Command Palette</strong> by <code class="docutils literal notranslate"><span class="pre">⌘⇧P</span></code> on mac or <code class="docutils literal notranslate"><span class="pre">Ctrl+Shift+P</span></code> on Windows</p></li>
+<li><p>Type “Remote” and select “Remote-SSH: Connect to Host”</p></li>
+<li><p>Select “Add New SSH Host” then type <code class="docutils literal notranslate"><span class="pre">ssh</span> <span class="pre">your_netid&#64;klc0202.quest.northwestern.edu</span></code></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="font-color-purple-vs-code-terminal-font">
+<h2><font color='purple'>VS Code Terminal</font><a class="headerlink" href="#font-color-purple-vs-code-terminal-font" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Open/Close Terminal by <code class="docutils literal notranslate"> <span class="pre">Ctrl+</span></code> `</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tmux</span></code></p>
+<ul>
+<li><p>tmux enables a continuous, uninterrupted workflow by allowing you to persist sessions across disconnections or switch seamlessly between tasks</p></li>
+<li><p><a class="reference internal" href="tmux.html"><span class="doc std std-doc">tmux cheatsheet</span></a></p></li>
+</ul>
+</li>
+</ul>
 </section>
 </section>
 
@@ -423,6 +477,15 @@ document.write(`
         <p class="prev-next-title">Welcome</p>
       </div>
     </a>
+    <a class="right-next"
+       href="sshpasswordless.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">SSH Passwordless Login 🔐</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -438,7 +501,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-basic-workflow-font"><font color="purple">Basic workflow </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-outline-font"><font color="purple">Outline </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-essential-extensions-font"><font color="purple">Essential Extensions </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-set-up-klc-connection-font"><font color="purple">Set up KLC connection </font></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#font-color-purple-vs-code-terminal-font"><font color="purple">VS Code Terminal</font></a></li>
 </ul>
   </nav></div>
 
