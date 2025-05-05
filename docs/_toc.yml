@@ -5,18 +5,21 @@ format: jb-book
 root: welcome
 parts:
 - caption: KLC with VS Code
+  file: welcome
   chapters:
   - file: vscode
   - file: sshpasswordless
   - file: tmux
   - file: vscode_shortcut
+- caption: Python Workflows
+  numbered: false
+  chapters:
+  - file: python
+  - file: jupyter
 - caption: GitHub
   numbered: false
   chapters:
   - file: github
-- caption: Copilot
-  numbered: false
-  chapters:
   - file: copilot
 - caption: Summary
   numbered: false
