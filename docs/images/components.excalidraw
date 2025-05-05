@@ -130,8 +130,8 @@
     {
       "id": "vSqMRoo9MP8jvzGXeBekS",
       "type": "text",
-      "x": 1328.5285646855832,
-      "y": 653.822265625,
+      "x": 1289.9738771855832,
+      "y": 660.197265625,
       "width": 77.3079833984375,
       "height": 35,
       "angle": 0,
@@ -147,8 +147,8 @@
       "index": "aZ",
       "roundness": null,
       "seed": 1017257724,
-      "version": 388,
-      "versionNonce": 1222216835,
+      "version": 488,
+      "versionNonce": 2008898730,
       "isDeleted": false,
       "boundElements": [
         {
@@ -156,7 +156,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1746450069959,
+      "updated": 1746468211170,
       "link": null,
       "locked": false,
       "text": "GPFS",
