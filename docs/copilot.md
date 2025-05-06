@@ -38,3 +38,5 @@
 ## Copilot in the Terminal
 - Cmd-I: Insert suggestion
 
+
+![alt text](./images/copilot-models.png)
