@@ -23,5 +23,14 @@ Git does not require GitHub, but Github is a popular platform for hosting git re
 ## Setting up Github in VS Code
 
 1. Create a Github account if you don't have one already.
+
+![GitHub Account](./images/github-web.png)
+
 2. Login to your Github account in VS Code.
+
+![GitHub Login](./images/vscode-github-login.png)
+
+3. Open the VS Code extension
+
+![GitHub Extension](./images/vscode-github-extension.png)
 
