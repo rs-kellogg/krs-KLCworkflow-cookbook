@@ -368,7 +368,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -384,6 +386,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#runing-a-notebook">Runing a notebook:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -397,6 +407,19 @@ document.write(`
 <h1>Jupyter Notebooks<a class="headerlink" href="#jupyter-notebooks" title="Link to this heading">#</a></h1>
 <p><a class="reference external" href="https://code.visualstudio.com/docs/datascience/jupyter-notebooks">VS Code Juypyter Notebooks</a></p>
 <p><img alt="VS Code" src="_images/vscode-jupyter.png" /></p>
+<section id="runing-a-notebook">
+<h2>Runing a notebook:<a class="headerlink" href="#runing-a-notebook" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Create or open a Jupyter Notebook file (with a <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code> extension) in VS Code.</p></li>
+<li><p>Set the kernel to the desired Python environment by clicking on the kernel picker in the top right corner of the notebook editor.</p></li>
+<li><p>Use the command palette (Ctrl+Shift+P) and type “Python: Select Interpreter” to choose the Python environment you want to use.</p></li>
+<li><p>Run the notebook cells by clicking the “Run Cell” button (play icon) next to each cell or by using the keyboard shortcut Shift+Enter.</p></li>
+<li><p>You can also run all cells in the notebook by clicking the “Run All” button in the toolbar.</p></li>
+<li><p>To stop the kernel, click the “Stop” button (square icon) in the toolbar.</p></li>
+<li><p>To save the notebook, use the “Save” button (disk icon) in the toolbar or use the keyboard shortcut Ctrl+S.</p></li>
+<li><p>You can also export the notebook to different formats (e.g., HTML, PDF) by using the “Export” button in the toolbar.</p></li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -453,6 +476,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#runing-a-notebook">Runing a notebook:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
