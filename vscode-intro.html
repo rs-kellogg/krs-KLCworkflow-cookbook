@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>tmux Essentials Cheatsheet 📄 &#8212; Kellogg Research Support KLC Workflow Cookbook</title>
+    <title>VS Code Setup &#8212; Kellogg Research Support KLC Workflow Cookbook</title>
   
   
   
@@ -57,11 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'tmux';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'vscode-intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="VS Code Keyboard Shortcuts ⌨️" href="vscode_shortcut.html" />
-    <link rel="prev" title="SSH Passwordless Login 🔐" href="sshpasswordless.html" />
+    <link rel="next" title="VS Code" href="vscode.html" />
+    <link rel="prev" title="Welcome" href="welcome.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,20 +181,22 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">KLC with VS Code</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">VS Code Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vscode.html">VS Code</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sshpasswordless.html">SSH Passwordless Login 🔐</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">tmux Essentials Cheatsheet 📄</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tmux.html">tmux Essentials Cheatsheet 📄</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vscode_shortcut.html">VS Code Keyboard Shortcuts ⌨️</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Python Workflows</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="python-intro.html">Python Setjup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python.html">Python Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="jupyter.html">Jupyter Notebooks</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">GitHub</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="github.html">Github</a></li>
-<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github.html">Git and Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Github Copilot</a></li>
 </ul>
 
     </div>
@@ -266,7 +268,7 @@
       
       
       
-      <li><a href="https://github.com/rs-kellogg/krs-KLCworkflow-cookbook/issues/new?title=Issue%20on%20page%20%2Ftmux.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/rs-kellogg/krs-KLCworkflow-cookbook/issues/new?title=Issue%20on%20page%20%2Fvscode-intro.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -296,7 +298,7 @@
       
       
       
-      <li><a href="_sources/tmux.ipynb" target="_blank"
+      <li><a href="_sources/vscode-intro.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -306,7 +308,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -378,7 +380,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>tmux Essentials Cheatsheet 📄</h1>
+    <h1>VS Code Setup</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -392,56 +394,9 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="tmux-essentials-cheatsheet">
-<h1>tmux Essentials Cheatsheet 📄<a class="headerlink" href="#tmux-essentials-cheatsheet" title="Link to this heading">#</a></h1>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Action</p></th>
-<th class="head"><p>Command</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Start a new session</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">tmux</span></code></p></td>
-</tr>
-<tr class="row-odd"><td><p>Reattach to last session</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">attach</span></code> or <code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">a</span></code></p></td>
-</tr>
-<tr class="row-even"><td><p>Detach from session</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">Ctrl+b</span></code>, then <code class="docutils literal notranslate"><span class="pre">d</span></code></p></td>
-</tr>
-<tr class="row-odd"><td><p>Create new window</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">Ctrl+b</span></code>, then <code class="docutils literal notranslate"><span class="pre">c</span></code></p></td>
-</tr>
-<tr class="row-even"><td><p>Switch window (next/prev)</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">Ctrl+b</span></code>, then <code class="docutils literal notranslate"><span class="pre">n</span></code> / <code class="docutils literal notranslate"><span class="pre">p</span></code></p></td>
-</tr>
-<tr class="row-odd"><td><p>Close pane/window</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">exit</span></code> or <code class="docutils literal notranslate"><span class="pre">Ctrl+d</span></code></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>For handling more than one tmux sessions:</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Action</p></th>
-<th class="head"><p>Command</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>List sessions</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">ls</span></code></p></td>
-</tr>
-<tr class="row-odd"><td><p>Start a named session</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">new</span> <span class="pre">-s</span> <span class="pre">mysession</span></code></p></td>
-</tr>
-<tr class="row-even"><td><p>Attach to a named session</p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">attach</span> <span class="pre">-t</span> <span class="pre">mysession</span></code></p></td>
-</tr>
-</tbody>
-</table>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="vs-code-setup">
+<h1>VS Code Setup<a class="headerlink" href="#vs-code-setup" title="Link to this heading">#</a></h1>
+<p><img alt="VS Code" src="_images/vscode-workflow.png" /></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -475,20 +430,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="sshpasswordless.html"
+       href="welcome.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">SSH Passwordless Login 🔐</p>
+        <p class="prev-next-title">Welcome</p>
       </div>
     </a>
     <a class="right-next"
-       href="vscode_shortcut.html"
+       href="vscode.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">VS Code Keyboard Shortcuts ⌨️</p>
+        <p class="prev-next-title">VS Code</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

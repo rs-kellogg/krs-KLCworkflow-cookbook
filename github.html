@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Git and Github &#8212; Kellogg Research Support KLC Workflow Cookbook</title>
+    <title>Github &#8212; Kellogg Research Support KLC Workflow Cookbook</title>
   
   
   
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'github';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Github Copilot" href="copilot.html" />
+    <link rel="next" title="Copilot" href="copilot.html" />
     <link rel="prev" title="Jupyter Notebooks" href="jupyter.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -193,8 +193,8 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">GitHub</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Git and Github</a></li>
-<li class="toctree-l1"><a class="reference internal" href="copilot.html">Github Copilot</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="copilot.html">Copilot</a></li>
 </ul>
 
     </div>
@@ -367,7 +367,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -378,11 +380,23 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Git and Github</h1>
+    <h1>Github</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">Git</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Github</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-github">Setting up Github</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -392,8 +406,33 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="git-and-github">
-<h1>Git and Github<a class="headerlink" href="#git-and-github" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="github">
+<h1>Github<a class="headerlink" href="#github" title="Link to this heading">#</a></h1>
+<p><img alt="VS Code" src="_images/github-workflow.png" /></p>
+<section id="git">
+<h2>Git<a class="headerlink" href="#git" title="Link to this heading">#</a></h2>
+<p>Git is a version control system that allows you to track changes in your code. On KLC, git is installed in <code class="docutils literal notranslate"><span class="pre">/usr/bin/git</span></code>. However, this is an old version and we recommend you load a later version with a <code class="docutils literal notranslate"><span class="pre">module</span></code> command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>module<span class="w"> </span>load<span class="w"> </span>git/latest
+</pre></div>
+</div>
+</section>
+<section id="id1">
+<h2>Github<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+<p>Github is a web-based platform that uses git for version control. It allows you to host your code repositories, collaborate with others, and manage your projects.</p>
+<section id="setting-up-github">
+<h3>Setting up Github<a class="headerlink" href="#setting-up-github" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p>Create a Github account if you don’t have one already.</p></li>
+<li><p>Configure your Github account with the CLI by running the following command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>gh<span class="w"> </span>auth<span class="w"> </span>login
+</pre></div>
+</div>
+</li>
+<li><p>Follow the prompts to authenticate your account and set up your SSH key.</p></li>
+<li><p>Login to your Github account in VS Code.</p></li>
+</ol>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -440,7 +479,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Github Copilot</p>
+        <p class="prev-next-title">Copilot</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -450,6 +489,25 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">Git</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Github</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-github">Setting up Github</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
