@@ -1,4 +1,6 @@
-# Git and Github
+# Github
+
+![VS Code](./images/github-workflow.png)
 
 ## Git
 Git is a version control system that allows you to track changes in your code. On KLC, git is installed in `/usr/bin/git`. However, this is an old version and we recommend you load a later version with a `module` command:

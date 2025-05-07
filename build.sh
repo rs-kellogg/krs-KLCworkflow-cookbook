@@ -1,1 +1,1 @@
-jb build --all ./docs
+jupyter-book build --all ./docs
