@@ -8,6 +8,7 @@ parts:
   file: welcome
   chapters:
   - file: vscode
+  - file: worksheet
   - file: sshpasswordless
   - file: tmux
   - file: vscode_shortcut
