@@ -26,3 +26,14 @@ Let's create our own notebook and run it.
 8. Run the modified Python script in VS Code to see the results.
 9. BONUS: run the script on all KLC nodes in parallel.
 ```
+
+
+```{note}
+:class: dropdown
+```python
+def timer(n_seconds):
+    for i in range(0, n_seconds):
+        print(f".", end="")
+        time.sleep(1)
+    print("Time's up!")
+```
