@@ -6,10 +6,9 @@
 
 ![Github Copilot](./images/github-copilot-settings.png)
 
-1. Install the Github Copilot extension in VS Code.
-2. Sign in to your Github account.
-3. Configure the extension settings to your preference.
-4. Test the extension by writing some code and checking if suggestions appear.
+1. Install the Github Copilot extension in [VS Code](https://docs.github.com/en/copilot/quickstart?tool=vscode)
+2. Sign in to your Github account on VS Code.
+3. Configure the extension settings to your preference, most importantly choose the model to use.
 
 ## Features
 - Code completion: Copilot can suggest entire lines or blocks of code based on the context of your current code.
@@ -18,5 +17,12 @@
 - Language support: Copilot supports a wide range of programming languages, including Python, JavaScript, TypeScript, Ruby, Go, and more.
 - Context awareness: Copilot can understand the context of your code and provide relevant suggestions based on that context.
 
-## Copilot in the Terminal
-- Cmd-I: Insert suggestion
+
+```{note}
+:class: dropdown
+Let's try out Copilot.
+
+1. Open a terminal in VS Code, use Cmd-I to insert a suggestion
+2. Open a Python file and start typing a function definition (tab key to accept the suggestion).
+3. Use the Cmd-I shortcut to insert a suggestion in the python file.
+```
