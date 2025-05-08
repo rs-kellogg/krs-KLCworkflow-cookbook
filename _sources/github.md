@@ -34,3 +34,18 @@ Git does not require GitHub, but Github is a popular platform for hosting git re
 
 ![GitHub Extension](./images/vscode-github-extension.png)
 
+
+```{note}
+:class: dropdown
+Let's create our own repository on KLC and a remote repository on Github.
+
+1. Open a VS Code workspace on KLC.
+2. Create a new folder for your project.
+3. Open the folder in VS Code.
+4. Click on the Source Control icon in the left sidebar.
+5. Click on the Initialize Repository button.
+6. Paste files from your local machine into the folder.
+7. Commit the changes.
+8. Click on the Publish to GitHub button.
+9. View the repository on Github.
+```
