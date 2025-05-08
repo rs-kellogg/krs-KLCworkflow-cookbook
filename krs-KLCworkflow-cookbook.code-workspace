@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../book_scrape"
-		},
-		{
-			"path": "../test-python"
 		}
 	],
 	"settings": {}
