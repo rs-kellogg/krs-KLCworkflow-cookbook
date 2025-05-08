@@ -24,4 +24,5 @@ Let's create our own notebook and run it.
 6. Open the exported Python script and review the code.
 7. Make any necessary modifications to the code in the Python script.
 8. Run the modified Python script in VS Code to see the results.
+9. BONUS: run the script on all KLC nodes in parallel.
 ```
