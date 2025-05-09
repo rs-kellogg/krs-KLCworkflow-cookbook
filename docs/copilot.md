@@ -1,4 +1,4 @@
-# Copilot 🧠
+# Copilot ✈️
 
 ## Setting up
 
