@@ -8,13 +8,13 @@ parts:
   file: welcome
   chapters:
   - file: vscode
-  - file: worksheet
   - file: sshpasswordless
-  - file: tmux
   - file: vscode_shortcut
+  - file: tmux
 - caption: Python Workflows
   numbered: false
   chapters:
+  - file: worksheet
   - file: python
   - file: jupyter
 - caption: GitHub
