@@ -12,7 +12,7 @@
 4. Run the notebook cells by clicking the "Run Cell" button (play icon) next to each cell or by using the keyboard shortcut Shift+Enter.
 5. Convert the notebook to a Python script by using the command palette (Ctrl+Shift+P) and typing "Jupyter: Export to Python Script". This will create a `.py` file with the same name as the notebook.
 
-```{note}
+```{admonition} Exercise
 :class: dropdown
 Let's create our own notebook and run it.
 
@@ -28,7 +28,7 @@ Let's create our own notebook and run it.
 ```
 
 
-```{note}
+```{admonition} Example Code
 :class: dropdown
 ```python
 def timer(n_seconds):
