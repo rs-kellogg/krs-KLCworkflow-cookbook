@@ -46,19 +46,22 @@ Using git does not require GitHub, but Github is an extremely popular platform f
 
 ```{admonition} Exercise
 :class: dropdown
-Let's create our own git repository on KLC and with a remote backup on Github.
+Let's publish our git repository on KLC to Github.
 
 - Open VS Code on KLC using the remote extension.
-- Open a terminal and create a new folder for your project, call it `test-project`.
-    ```bash
-    mkdir test-project
-    ```
-- Open the new folder in VS Code.
-
-- Paste files from your local machine into the folder.
 - Click on the Source Control icon in the left sidebar.
-- Click on the Initialize Repository button.
-- Commit the changes.
-- Click on the Publish to GitHub button.
+- Click on the `Publish Branch` button and follow the prompts
 - View the repository on Github.
+```
+
+```{admonition} Exercise
+:class: dropdown
+Now let's clone the repo to your local machine (or another KLC folder if you don't have git installed on your local machine).
+
+-  Open VS Code on your local machine.
+- Click on the Source Control icon in the left sidebar.
+- Click on the `Clone Repository` button and follow the prompts
+- Make some changes to the code and commit them.
+- Push the changes to the remote repository on Github.
+- View the changes on Github.
 ```

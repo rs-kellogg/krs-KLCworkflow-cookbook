@@ -15,24 +15,18 @@
 :class: dropdown
 Let's create our own notebook and run it.
 
-1. Create a new Jupyter Notebook file in VS Code and set the kernel to your chosen Python environment.
+1. Create a new Jupyter Notebook file in VS Code and set the kernel.
 2. Add Markdown cells with a title and description.
-3. Use the Generate Code button to generate code snippets
+3. Add a code cell to read in a CSV file and display the first few rows.
 4. Run the code cells and observe the output.
 5. Save the notebook and export it to a Python script.
-6. Open the exported Python script and review the code.
-7. Make any necessary modifications to the code in the Python script.
-8. Run the modified Python script in VS Code to see the results.
-9. BONUS: run the script on all KLC nodes in parallel.
 ```
 
 
 ```{admonition} Example Code
 :class: dropdown
 ```python
-def timer(n_seconds):
-    for i in range(0, n_seconds):
-        print(f".", end="")
-        time.sleep(1)
-    print("Time's up!")
+import pandas as pd
+df = pd.read_csv("data.csv")
+print(df)
 ```

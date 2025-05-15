@@ -41,9 +41,13 @@ To get the [Github Copilot Pro Plan](https://github.com/features/copilot/plans?c
 
 ```{admonition} Exercise
 :class: dropdown
-Let's try out Copilot.
+Let's try out Copilot (we will do this on our local machine).
 
-1. Open a terminal in VS Code, use Cmd-I to insert a suggestion
-2. Open a Python file and start typing a function definition (tab key to accept the suggestion).
-3. Use the Cmd-I shortcut to insert a suggestion in the python file.
+1. Open VS Code and go to the Book Scraper project.
+2. Use `Cmd-I` to start an inline chat in the python file.
+3. Open the Copilot chat window and ask it to explain the code.
+4. Use the `/explain` command to get a detailed explanation of the code.
+5. Use the `/test` command to generate test cases for the code.
+6. Use the `/doc` command to generate documentation for the code.
+7. Open a terminal and use `Cmd-I` to start a chat in the terminal.
 ```
