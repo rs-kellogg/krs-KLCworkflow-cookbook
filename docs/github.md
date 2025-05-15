@@ -48,9 +48,10 @@ Using git does not require GitHub, but Github is an extremely popular platform f
 :class: dropdown
 Let's publish our git repository on KLC to Github.
 
-- Open VS Code on KLC using the remote extension.
+- Sign in to your Github account on VS Code.
+- Open VS Code on KLC using the remote extension and open our project folder.
 - Click on the Source Control icon in the left sidebar.
-- Click on the `Publish Branch` button and follow the prompts
+- Click on the `Publish Branch` button and follow the prompts.
 - View the repository on Github.
 ```
 
@@ -58,9 +59,9 @@ Let's publish our git repository on KLC to Github.
 :class: dropdown
 Now let's clone the repo to your local machine (or another KLC folder if you don't have git installed on your local machine).
 
--  Open VS Code on your local machine.
+- Open VS Code on your local machine.
 - Click on the Source Control icon in the left sidebar.
-- Click on the `Clone Repository` button and follow the prompts
+- Click on the `Clone Repository` button and follow the prompts.
 - Make some changes to the code and commit them.
 - Push the changes to the remote repository on Github.
 - View the changes on Github.
