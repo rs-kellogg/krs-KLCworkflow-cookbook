@@ -17,7 +17,12 @@
 ![Github Copilot Uses](./images/github-copilot-uses.png)
 
 
-- Code completion: Copilot can suggest entire lines or blocks of code inline
+- Code completion: Copilot can suggest code completions as you type
+    * use the `Tab` key to accept a suggestion
+    * use the `Esc` key to dismiss a suggestion
+    * use `Cmd-Right` to incrementally accept a suggestion
+
+- Code chat inline: Copilot can suggest entire lines or blocks of code inline
     * use the `Cmd-I` shortcut to insert a suggestion
     * use `/` to insert pre-defined prompts (e.g. `/fix`, `/explain`, `/test`, `/doc`)
     * works in code files, noteooks, and terminal
@@ -27,9 +32,6 @@
     * can use other parts of the codebase as context (e.g., higlight a chunk of code and use `/explain`)
     * chat has `ask`, `edit`, and `agent` modes
     * available `/` commands depends on mode being used
-
-- Smart actions: 
-
 
 
 ```{admonition} Exercise
