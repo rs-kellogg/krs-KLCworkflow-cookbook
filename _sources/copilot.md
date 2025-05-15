@@ -12,6 +12,8 @@
 2. Sign in to your Github account on VS Code.
 3. Configure the extension settings to your preference, most importantly choose the model to use.
 
+To get the [Github Copilot Pro Plan](https://github.com/features/copilot/plans?cft=copilot_li.features_copilot) through Kellogg, send an email request to rs@kellogg.northwestern.edu to get added to the Kellogg Github organization. Availalble to stafff, students, and faculty.
+
 ## Copilot Uses
 
 ![Github Copilot Uses](./images/github-copilot-uses.png)
