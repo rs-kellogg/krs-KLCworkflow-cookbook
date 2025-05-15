@@ -36,6 +36,9 @@ To get the [Github Copilot Pro Plan](https://github.com/features/copilot/plans?c
     * available `/` commands depends on mode being used
 
 
+![Github Copilot Chat Modes](./images/github-copilot-chat-modes.png)
+
+
 ```{admonition} Exercise
 :class: dropdown
 Let's try out Copilot.
