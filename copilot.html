@@ -390,8 +390,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up">Setting up</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#features">Features</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#copilot-uses">Copilot Uses</a></li>
 </ul>
             </nav>
         </div>
@@ -405,8 +405,9 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="copilot">
 <h1>Copilot ✈️<a class="headerlink" href="#copilot" title="Link to this heading">#</a></h1>
-<section id="setting-up">
-<h2>Setting up<a class="headerlink" href="#setting-up" title="Link to this heading">#</a></h2>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://code.visualstudio.com/docs/copilot/setup">Github Copilot Setup</a></p>
 <p><a class="reference external" href="https://github.com/settings/copilot">Github Copilot Settings</a></p>
 <p><img alt="Github Copilot" src="_images/github-copilot-settings.png" /></p>
 <ol class="arabic simple">
@@ -415,17 +416,29 @@ document.write(`
 <li><p>Configure the extension settings to your preference, most importantly choose the model to use.</p></li>
 </ol>
 </section>
-<section id="features">
-<h2>Features<a class="headerlink" href="#features" title="Link to this heading">#</a></h2>
+<section id="copilot-uses">
+<h2>Copilot Uses<a class="headerlink" href="#copilot-uses" title="Link to this heading">#</a></h2>
+<p><img alt="Github Copilot Uses" src="_images/github-copilot-uses.png" /></p>
 <ul class="simple">
-<li><p>Code completion: Copilot can suggest entire lines or blocks of code based on the context of your current code.</p></li>
-<li><p>Code suggestions: Copilot can suggest alternative implementations or improvements to your code.</p></li>
-<li><p>Documentation generation: Copilot can generate documentation for your code based on comments or function signatures.</p></li>
-<li><p>Language support: Copilot supports a wide range of programming languages, including Python, JavaScript, TypeScript, Ruby, Go, and more.</p></li>
-<li><p>Context awareness: Copilot can understand the context of your code and provide relevant suggestions based on that context.</p></li>
+<li><p>Code completion: Copilot can suggest entire lines or blocks of code inline</p>
+<ul>
+<li><p>use the <code class="docutils literal notranslate"><span class="pre">Cmd-I</span></code> shortcut to insert a suggestion</p></li>
+<li><p>use <code class="docutils literal notranslate"><span class="pre">/</span></code> to insert pre-defined prompts (e.g. <code class="docutils literal notranslate"><span class="pre">/fix</span></code>, <code class="docutils literal notranslate"><span class="pre">/explain</span></code>, <code class="docutils literal notranslate"><span class="pre">/test</span></code>, <code class="docutils literal notranslate"><span class="pre">/doc</span></code>)</p></li>
+<li><p>works in code files, noteooks, and terminal</p></li>
 </ul>
-<div class="dropdown admonition note">
-<p class="admonition-title">Note</p>
+</li>
+<li><p>Copilot chat: Copilot can provide explanations, suggestions, and code snippets in a chat-like interface</p>
+<ul>
+<li><p>use for larger scale code generation and coding tasks</p></li>
+<li><p>can use other parts of the codebase as context (e.g., higlight a chunk of code and use <code class="docutils literal notranslate"><span class="pre">/explain</span></code>)</p></li>
+<li><p>chat has <code class="docutils literal notranslate"><span class="pre">ask</span></code>, <code class="docutils literal notranslate"><span class="pre">edit</span></code>, and <code class="docutils literal notranslate"><span class="pre">agent</span></code> modes</p></li>
+<li><p>available <code class="docutils literal notranslate"><span class="pre">/</span></code> commands depends on mode being used</p></li>
+</ul>
+</li>
+<li><p>Smart actions:</p></li>
+</ul>
+<div class="dropdown admonition">
+<p class="admonition-title">Exercise</p>
 <p>Let’s try out Copilot.</p>
 <ol class="arabic simple">
 <li><p>Open a terminal in VS Code, use Cmd-I to insert a suggestion</p></li>
@@ -491,8 +504,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up">Setting up</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#features">Features</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#copilot-uses">Copilot Uses</a></li>
 </ul>
   </nav></div>
 

@@ -17,10 +17,17 @@ The VS Code source control extension with git support is installed by default:
 
 This extension provides a user-friendly interface for managing your git repositories. You can use it to stage changes, commit code, and push to remote repositories.
 
+![Git workflow](./images/git-workflow.png)
+
+
 ## Github
 Github is a web-based platform that uses git for version control. It allows you to host your code repositories, collaborate with others, and manage your projects. 
 
 Using git does not require GitHub, but Github is an extremely popular platform for hosting git repositories. You can use Github to store your code, track issues, and collaborate with others. You can create a free account on Github and start hosting your code repositories. Microsoft owns GitHub and is also the primary sponsor of the open-source VS Code tool. As a consequence there is an excellent integration between VS Code and Github, making it easy to manage your code repositories from within the editor.
+
+
+![Git workflow](./images/github-remote.png)
+
 
 ## Setting up Github in VS Code
 

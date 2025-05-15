@@ -1,6 +1,8 @@
 # Copilot ✈️
 
-## Setting up
+## Getting Started
+
+[Github Copilot Setup](https://code.visualstudio.com/docs/copilot/setup)
 
 [Github Copilot Settings](https://github.com/settings/copilot)
 
@@ -10,15 +12,27 @@
 2. Sign in to your Github account on VS Code.
 3. Configure the extension settings to your preference, most importantly choose the model to use.
 
-## Features
-- Code completion: Copilot can suggest entire lines or blocks of code based on the context of your current code.
-- Code suggestions: Copilot can suggest alternative implementations or improvements to your code.
-- Documentation generation: Copilot can generate documentation for your code based on comments or function signatures.
-- Language support: Copilot supports a wide range of programming languages, including Python, JavaScript, TypeScript, Ruby, Go, and more.
-- Context awareness: Copilot can understand the context of your code and provide relevant suggestions based on that context.
+## Copilot Uses
+
+![Github Copilot Uses](./images/github-copilot-uses.png)
 
 
-```{note}
+- Code completion: Copilot can suggest entire lines or blocks of code inline
+    * use the `Cmd-I` shortcut to insert a suggestion
+    * use `/` to insert pre-defined prompts (e.g. `/fix`, `/explain`, `/test`, `/doc`)
+    * works in code files, noteooks, and terminal
+
+- Copilot chat: Copilot can provide explanations, suggestions, and code snippets in a chat-like interface
+    * use for larger scale code generation and coding tasks
+    * can use other parts of the codebase as context (e.g., higlight a chunk of code and use `/explain`)
+    * chat has `ask`, `edit`, and `agent` modes
+    * available `/` commands depends on mode being used
+
+- Smart actions: 
+
+
+
+```{admonition} Exercise
 :class: dropdown
 Let's try out Copilot.
 
