@@ -22,10 +22,11 @@ parts:
   chapters:
   - file: github
   - file: copilot
-- caption: Summary
+- caption: Takeaways
   numbered: false
   chapters:
-  - file: takeaways
+  - file: checklist
+
 
   
 
