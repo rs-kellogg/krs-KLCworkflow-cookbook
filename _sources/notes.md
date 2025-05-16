@@ -44,3 +44,10 @@
 - Use Github Copilot to generate tests
     * Open `test_dl_book_pages.py`
     * Use `/test` command in chat to generate test cases for the code
+
+- Create a notebook
+    * Open a new Jupyter notebook in VS Code
+    * Set the kernel to the conda environment
+    * Create a markdown cell to describe the notebook
+    * Create a code cell to import the necessary libraries
+    * Create a code cell to define the functions

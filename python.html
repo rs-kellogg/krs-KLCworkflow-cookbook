@@ -396,8 +396,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-python-environment">Set up Python environment</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-your-conda-mamba-environment">Set up your Conda/Mamba environment</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#or-optionally-create-your-own-environment">Or, optionally create your own environment</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#optionally-set-up-your-own-conda-mamba-environment">Optionally set up your own Conda/Mamba environment</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#select-the-workspace-python-interpreter-in-vscode">Select the workspace Python interpreter in VSCode</a></li>
 </ul>
 </li>
@@ -416,18 +415,12 @@ document.write(`
 <h1>Python Setup 🐍<a class="headerlink" href="#python-setup" title="Link to this heading">#</a></h1>
 <section id="set-up-python-environment">
 <h2>Set up Python environment<a class="headerlink" href="#set-up-python-environment" title="Link to this heading">#</a></h2>
-<section id="set-up-your-conda-mamba-environment">
-<h3>Set up your Conda/Mamba environment<a class="headerlink" href="#set-up-your-conda-mamba-environment" title="Link to this heading">#</a></h3>
+<section id="optionally-set-up-your-own-conda-mamba-environment">
+<h3>Optionally set up your own Conda/Mamba environment<a class="headerlink" href="#optionally-set-up-your-own-conda-mamba-environment" title="Link to this heading">#</a></h3>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>module<span class="w"> </span>load<span class="w"> </span>mamba
+mamba<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>myenv<span class="w"> </span>python
 <span class="nb">source</span><span class="w"> </span>activate<span class="w"> </span>/kellogg/software/envs/python-env
 mamba<span class="w"> </span>install<span class="w"> </span>ipykernel
-</pre></div>
-</div>
-</section>
-<section id="or-optionally-create-your-own-environment">
-<h3>Or, optionally create your own environment<a class="headerlink" href="#or-optionally-create-your-own-environment" title="Link to this heading">#</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mamba<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>myenv<span class="w"> </span>python
-<span class="nb">source</span><span class="w"> </span>activate<span class="w"> </span>myenv
 </pre></div>
 </div>
 </section>
@@ -514,8 +507,7 @@ mamba<span class="w"> </span>install<span class="w"> </span>ipykernel
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-python-environment">Set up Python environment</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-your-conda-mamba-environment">Set up your Conda/Mamba environment</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#or-optionally-create-your-own-environment">Or, optionally create your own environment</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#optionally-set-up-your-own-conda-mamba-environment">Optionally set up your own Conda/Mamba environment</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#select-the-workspace-python-interpreter-in-vscode">Select the workspace Python interpreter in VSCode</a></li>
 </ul>
 </li>
